@@ -21,7 +21,6 @@ def load_cve_data(cve_path):
         return json.load(f)
 
 def extract_versions(file_content):
-    # Try to grab version strings like OpenSSH_8.2p1 or Dropbear v2017.75
     version_pattern = r"(OpenSSH|Dropbear|BusyBox|uClibc)[^\n]*?(\d+\.\d+[\w\.]*)"
     return re.findall(version_pattern, file_content, flags=re.IGNORECASE)
 
