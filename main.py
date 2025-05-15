@@ -21,7 +21,6 @@ def match_cves(suspicious_keywords, versions, cve_data):
             matches.append(cve_id)
             continue
         
-        # Check if version matches (very simple, exact match)
         component = details.get("component", "").lower()
         version = details.get("version", "")
         if component in versions and versions[component] == version:
