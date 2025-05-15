@@ -1,7 +1,7 @@
 import requests
 import json
 
-API_KEY = "5e367f27-3878-4492-9a9e-9eb4bed215e4"
+API_KEY = "YOURAPIKEY"
 
 url = "https://services.nvd.nist.gov/rest/json/cves/2.0"
 
