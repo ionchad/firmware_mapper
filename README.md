@@ -1,6 +1,6 @@
 # Firmware Attack Surface Mapper
 
-This tool extracts and analyzes firmware binaries to find suspicious services and known vulnerabilities (CVEs).
+This tool extracts and analyzes firmware binaries to find suspicious services and known vulnerabilities, cves.
 
 ## How to use
 
