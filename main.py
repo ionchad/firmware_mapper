@@ -14,7 +14,6 @@ def match_cves(suspicious_keywords, versions, cve_data):
     matches = []
 
     for cve_id, details in cve_data.items():
-        # Check if any suspicious keyword is in CVE description or tags
         desc = details.get("description", "").lower()
         tags = details.get("tags", [])
         
